@@ -18,15 +18,17 @@ do
     if (Draw == true)
     {
         for (int i = 1; i< hight - 1; i++) {
-        Console.WriteLine(new String(simvol, width));
+
+            Console.WriteLine(new String(simvol, width));
+
+        }
     }
-     }
     else { 
 
-    for (int i = 1; i < hight - 1 ; i++)
-    {
-        Console.WriteLine(simvol + new String(' ', width - 2) + simvol);
-    }
+        for (int i = 1; i < hight - 1 ; i++)
+        {
+            Console.WriteLine(simvol + new String(' ', width - 2) + simvol);
+        }
     }
     
     Console.WriteLine(new String(simvol, width));

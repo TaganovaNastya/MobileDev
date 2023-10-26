@@ -4,8 +4,6 @@
     {
         static void Main(string[] args)
         {
-
-            //char[,] minefield = GenerateMinefield(9, 9, 10);
             PrintMinefield(GenerateMinefield(9, 9, 10));
         }
 
@@ -13,7 +11,7 @@
         {
             char[,] minefield = new char[height, width];
 
-            // Инициализируем поле пустыми клетками
+            
             for (int row = 0; row < height; row++)
             {
                 for (int col = 0; col < width; col++)
@@ -22,7 +20,7 @@
                 }
             }
 
-            // Размещаем мины случайным образом
+
             Random random = new Random();
             for (int minesPlaced = 0; minesPlaced < numMines;)
             {
@@ -36,7 +34,6 @@
                 }
             }
 
-            // Заполняем клетки числами, показывающими количество соседних мин
             for (int row = 0; row < height; row++)
             {
                 for (int col = 0; col < width; col++)
