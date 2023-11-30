@@ -1,0 +1,44 @@
+﻿<Window x:Class="wfaWrapPanel.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:wfaWrapPanel"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="300">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <WrapPanel Grid.Row="0">
+            <Button Content="мир1"/>
+            <Button Content="труд2"/>
+            <Button Content="май3" Width="90"/>
+            <Button Content="июнь5"/>
+            <Button Content="июль6"/>
+            <Button Content="август7"/>
+        </WrapPanel>
+
+        <WrapPanel Grid.Row="1" Orientation="Vertical">
+            <Button Content="мир1"/>
+            <Button Content="труд2"/>
+            <Button Content="май3" Height="90"/>
+            <Button Content="июнь5"/>
+            <Button Content="июль6"/>
+            <Button Content="август7"/>
+        </WrapPanel>
+
+        <WrapPanel Grid.Row="2" ItemHeight="40" ItemWidth="90">
+            <Button Content="мир1"/>
+            <Button Content="труд2"/>
+            <Button Content="май3"/>
+            <Button Content="июнь5"/>
+            <Button Content="июль6"/>
+            <Button Content="август7"/>
+        </WrapPanel>
+
+    </Grid>
+</Window>
