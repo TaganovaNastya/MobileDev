@@ -1,0 +1,2 @@
+ImagePath;C:\Users\User\source\repos\TaganovaNastya\MobileDev\wfaActivZona5\zone\кек.txt
+пкып;166;162;95;50

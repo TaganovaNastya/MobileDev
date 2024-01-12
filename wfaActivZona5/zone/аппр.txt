@@ -1,0 +1,3 @@
+ImagePath;openFileDialog1
+аыкп;50;131;2;83
+мапв;152;167;12;17

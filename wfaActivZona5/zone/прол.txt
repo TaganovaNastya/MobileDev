@@ -1,0 +1,2 @@
+ImagePath;C:\Users\User\source\repos\TaganovaNastya\MobileDev\wfaActivZona5\zone\прол.txt
+ааиква;100;100;99;125

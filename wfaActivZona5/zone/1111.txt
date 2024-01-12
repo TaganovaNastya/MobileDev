@@ -1,0 +1,2 @@
+ImagePath;C:\Users\User\Downloads\photo_2023-12-15_00-42-08.jpg
+укен;207;124;52;42
